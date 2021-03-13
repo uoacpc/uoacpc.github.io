@@ -12,7 +12,7 @@ html, body {
  	height: 100%;
 }
 body {
-	color: #a5a5a5;
+	color: #e2e2e2;
 	background: #1d1d1d;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
@@ -61,7 +61,7 @@ a {
 header {
 	width: 100%;
 	min-height: 700px;
-	background-image: url('../../assets/images/image1.png');
+	background-image: url('image1.png');
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center;
@@ -111,30 +111,26 @@ footer {
 		font-size: 14px;
 	}
 }
+@media all and (max-width: 500px) {
+	header {
+		background: none;
+		box-shadow: none;
+	}
+}
 
 .headerContainer {
-	color: #fff;
-	font-size: 62px;
-	font-weight: 600;
 	height: 100%;
 	margin: 0 auto;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
-@media all and (max-width: 1000px) {
-	.headerContainer {
-		font-size: 40px;
-	}
+.headerContainerImage{
+	width:400px;
 }
 @media all and (max-width: 700px) {
-	.headerContainer {
-		font-size: 22px;
-	}
-}
-@media all and (max-width: 400px) {
-	.headerContainer {
-		font-size: 20px;
+	.headerContainerImage{
+		width: 200px;
 	}
 }
 
@@ -154,13 +150,9 @@ footer {
 	padding: 20px 20px;
 	text-align: center;
 	display: inline-block;
-	border-right: 1px solid #737373;
-}
-.first {
-	border-left: 1px solid #737373;
 }
 .navBarImage {
-	width: 25px;
+	width: 35px;
 }
 .navBar a {
 	color: #a5a5a5;
@@ -191,7 +183,7 @@ footer {
 	margin: 50px auto;
 	background: #292929;
 	border: solid rgba(85, 85, 85, 1) 0px;
-    border-radius: 35px;
+    border-radius: 15px;
 	box-sizing: content-box;
 	-moz-box-shadow: 0 0 10px #121212;
 	-webkit-box-shadow: 0 0 10px #121212;
@@ -289,12 +281,22 @@ footer {
 .activityText {
 	width: 50%;
 	padding-left: 15px;
-	text-align: justify;
+	text-align: left;
 	float: right;
 }
 .guideText {
 	width: 50%;
 	padding-right: 15px;
+}
+@media all and (max-width: 400px) {
+	.activityText {
+		width: 100%;
+		text-align: justify;
+		float: none;
+	}
+	.guideText {
+		width: 100%;
+	}
 }
 
 #firstImage {
@@ -303,7 +305,18 @@ footer {
 #secondImage {
 	width: 50%;
 	display: inline-block;
-	float:right;
+	float: right;
+}
+@media all and (max-width: 400px) {
+	#firstImage {
+		width: 100%;
+		margin: 25px 0;
+	}
+	#secondImage {
+		width: 100%;
+		float: none;
+		margin: 25px 0;
+	}
 }
 
 table {
@@ -315,4 +328,13 @@ td {
 }
 .sponsorImage {
 	width: 100px;
+}
+@media all and (max-width: 400px) {
+	td {
+		font-size: 8px;
+		text-align: left;
+	}
+	.sponsorImage {
+		width: 50px;
+	}
 }
