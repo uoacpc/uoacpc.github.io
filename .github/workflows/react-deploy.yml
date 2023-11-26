@@ -32,3 +32,5 @@ jobs:
       with:
         folder: build
         token: ${{ secrets.GITHUB_TOKEN }}
+        branch: gh-pages
+        cleanup: false
