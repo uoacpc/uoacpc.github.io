@@ -1,6 +1,6 @@
 import React from 'react';
 // import './App.css';
-import { Outlet } from 'react-router-dom';
+import { Link, Outlet } from 'react-router-dom';
 
 function App() {
   return (
@@ -9,13 +9,13 @@ function App() {
             <header>
                 <div className="navBar">
                     <div className="navBarButtons">
-                        <a href="/" title="home">
+                        <Link to="/">
                             <img src="/images/CPCLogo.png" className='navBarImage' alt="CPCLogo"/>
-                        </a>
+                        </Link>
                     </div>
                     <a href="https://forms.gle/KNQsRjctczBmYrg86" title="join" className='navBarButtons'>Join</a>
-                    <a href="/about" title="about" className='navBarButtons'>About</a>
-                    <a href="/sponsors" title="sponsors" className='navBarButtons'>Sponsors</a>
+                    <Link to="/about" className='navBarButtons'>About</Link>
+                    <Link to="/sponsors" className='navBarButtons'>Sponsors</Link>
                 </div>
                 <div className='headerContainer'>
                     <img src="/images/CPCLogoText.png" className='headerContainerImage' alt="CPCLogoText"/>
