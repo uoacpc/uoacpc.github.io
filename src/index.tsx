@@ -4,14 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {
-    createBrowserRouter,
+    createHashRouter,
     RouterProvider,
 } from "react-router-dom";
 import About from './pages/about';
 import Sponsors from './pages/sponsors';
 import Home from './pages/home';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
     {
         path: "/",
         element: <App/>,
@@ -29,14 +29,6 @@ const router = createBrowserRouter([
                 element: <Home/>
             }
         ]
-    },
-    {
-        path: "/about",
-        element: <About/>
-    },
-    {
-        path: "/sponsors",
-        element: <Sponsors/>
     }
 ])
 
