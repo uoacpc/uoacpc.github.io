@@ -1,0 +1,12 @@
+[
+    {
+        "imgLoc": "/images/chamonixLogo.png",
+        "name": "Chamonix",
+        "desc": "Chamonix is an award winning progressive Australian consultancy that focuses on building services appropriate to the evolving market. They have the ability to deliver services using flexible approaches to suit their customers, yet are of the size of a company that can take on large scale project work. Chamonix has a track record of successful delivery of customer outcomes by adopting suitable best practice approaches combined with significant experience built up from years of customer project delivery. By adopting a more fluid approach when applicable, Chamonix's customers can obtain a more relevant outcome."
+    },
+    {
+        "imgLoc": "/images/microsoftLogo.png",
+        "name": "Microsoft",
+        "desc": "Microsoft Corporation (MS) is an American multinational technology company. It develops, manufactures, licenses, supports and sells computer software, consumer electronics, personal computers, and related services."
+    }
+]
