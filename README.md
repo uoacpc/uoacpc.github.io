@@ -1,6 +1,14 @@
-# Getting Started with Create React App
+# University of Adelaide Competitive Programming club's main website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the source code of the main website for UoA's CPC club. The project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), and hosted on [Vercel](https://vercel.com).
+
+## Installing dependencies
+
+When clone the project back to the machine, before running any other script, you need to install all Node modules using `npm install` / `npm i`.
+
+## DNS settings for domain name
+
+The website is hosted on [this domain](https://acpc.io). The domain was registered on Cloudflare. If you need to change the hosting service (E.g: Vercel &rarr; Netlify), go to [Cloudflare dashboard](https://dash.cloudflare.com) &rarr; DNS &rarr; Records, delete the record for Vercel (Currently it's a Type A record that has the name as domain name, and value as `76.76.21.21`), and add your new DNS record that's required by the other hosting service that you use.
 
 ## Available Scripts
 
