@@ -3,6 +3,18 @@ import React from "react";
 export default function About(){
     const pageContent = [
         {
+            heading: "2025 Committee",
+            paragraphs: `President: Irhas Gill
+            Vice President: Zach Anderson
+            Secretary: Nic Ataiza
+            Treasurer: Jackson Bunting
+            Industry Liaisons: Xiaoyu Tan, Lachy Schinnick, Ramin Shahu
+            Social Media Managers: Roselyn Hoffmann, Mehdi Mahzounieh
+            Event Coordinators: Mahir Numayeer Islam, Syeda Ramisa Fariha, Shaun Phillips
+            Web Developers: Henry Nguyen, Justin Sun, Maged Gayed, Kevin Lac
+            `
+        },
+        {
             heading: "What is competitive programming anyway?",
             paragraphs: `Competitive programming is a mind sport usually held over the Internet or a local network, involving participants trying to program according to provided specifications (totally not copied from Wikipedia).
             In essence, it is about solving ridiculously difficult problems within unfairly short time limits (because why not).`
